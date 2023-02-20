@@ -1,0 +1,18 @@
+{
+  "name": "vrtestalancypress",
+  "version": "1.0.0",
+  "description": "Test for Alan Silva",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open",
+    "tests" : "npx cypress open",
+    "dash": "npx cypress run --record --key bd392f3a-c5b7-493b-8bbb-2abc74346126",
+    "headless": "npx run test"
+  },
+  "author": "Alan Silva",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.3.0",
+    "baseUrl": "http://localhost:4200/dashboard"
+  }
+}
